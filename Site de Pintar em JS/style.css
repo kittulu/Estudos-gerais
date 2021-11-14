@@ -1,0 +1,24 @@
+body{
+    float: left;
+
+}
+
+#grade div{
+    display: block;
+    border: 0;
+    height: 16px;
+}
+
+#grade div div{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-bottom:1px solid #000000;
+    border-right:1px solid black;
+    margin: 0;
+}
+#paleta div{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+}

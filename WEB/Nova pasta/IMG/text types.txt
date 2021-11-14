@@ -1,0 +1,9 @@
+color - cor
+text-align - alinhameto
+text-ident - recuo
+text-transform - forma das letras
+direction - direção do texto
+letter-spacing - espaçmento entre as letras
+word-spacing - espaçamento entre palavras
+
+

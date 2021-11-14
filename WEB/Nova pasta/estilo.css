@@ -1,0 +1,114 @@
+body{
+	background: #1C1C1C;/*cor*/
+	font-family: comic sans ms;/*Fonte*/
+}
+/* - tag - */
+h1{
+	text-shadow: 2px/*topo*/ 2px/*esquerda*/ 2px/*espessura*/ red/*cor*/;
+		direction: rtl;/*right to left - direçao*/
+		direction: ltr;/*left to right*/
+}
+p{
+	color: #473C8B;/*cor*/
+	text-align: justify;/*Alinhamento*/
+}
+/* - id - */
+/*#id_01{
+	color: #FF6A6A;/*cor*/
+/*	text-align: right; /*Alinhamento*/
+/*	text-decoration: overline; /*linha acima só decoraçao*/
+/*	text-decoration: underline;/*sublinha abaixo*/
+/*	word-spacing: 5px; /*espaçamento entre palavras*/
+/*	line-height: 50px;/*espaçamento entre linhas*/
+/*}*/
+
+#id_01{
+	padding:30px 50px 10px 30px;/* - Borda interna -*/
+	padding-bottom: 60px; 
+
+	border: 3px dotted green;
+
+
+}	
+#id_02{
+	color: #FF6A6A;/*cor*/
+	text-align: center;/*Alinhamento*/
+	text-decoration: line-through; /*tachado decoração*/
+	/*text-decoration: blink;*/
+	text-decoration-color: red;
+	text-transform: lowercase;/*Caixa baixa*/
+	text-transform: capitalize;/*Primeiras Letras Maiusculas*/
+}	
+/* - class - */
+.class_01{
+	color: green;/*cor*/
+	text-align: left;/*Alinhamento*/
+	text-decoration: none; /*Retira decorações*/
+	text-transform: uppercase; /*caixa alta*/
+}
+/*top - right - botton - left*/
+#id_02{
+	padding: 30px;
+	margin: 70px;
+
+/*cor da borda*/
+	border-color: yellow;
+	border-top-color: purple;/*a ultima lida é a que prevalece*/
+/*curva da borda*/
+	border-radius: 30px;
+/*estilo de borda*/
+	border-top-style: dashed;
+	border-bottom-style: dotted;
+	border-left-style: double;
+	border-right-style: groove; 
+/*tamanho da borda*/
+	border-top-width: 3px;
+	border-bottom-width: 4px;
+	border-left-width: 6px;
+	border-right-width: 5px;
+}
+.class_02{
+	border: 15px outset green;
+	border: 15px inset red;
+	font-weight: bold;
+	font-family: fantasy;
+	font-style: italic;
+	width: auto;
+	height: auto;
+	padding: 10px;
+	margin-left: 300px;
+}
+a{
+	text-decoration: none;
+	color: #777777;
+	font-size: 20px;
+}
+a:hover{
+	color: #005020;
+	box-shadow: inset 0 0px 10px #777777;
+}
+ul{
+	border:1px solid #777777;
+	padding: 10px;
+	border-radius: 5%;
+}
+
+li{
+	display: inline;
+	margin: 5%;
+}
+.lis{
+	display: list-item;
+	margin: 30px;
+	width: auto;
+	height: auto;
+	list-style: square;
+	color: white;
+}
+.imagem{
+	width: 300px;
+	height: 300px;
+	display: block;
+	/*margin: 0 auto;*/
+
+}
