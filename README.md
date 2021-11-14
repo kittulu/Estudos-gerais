@@ -8,7 +8,7 @@ Alguns estudos aleatórios de linguagem e desenvolvimento
 Meus primeiro contato com grids, colunas e layouts
 Um belo site sobre Pudim
 
-### Batatatinha
+### WEB
 2019
 Estudando CSS puro e afins
 Várias coisas
