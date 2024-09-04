@@ -1,3 +1,8 @@
+https://supabase.com/dashboard/project/jjwxiuytqiomyynqtwsj
+  +PGADMIN
+SCRIPT PARA CONECTAR
+
+  
 ----TABELA PESSOA----
 CREATE TABLE PESSOA (
 id SERIAL PRIMARY KEY,
