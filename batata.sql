@@ -23,10 +23,8 @@ cliente_id INT REFERENCES pessoa (id),
 vendedor_id INT REFERENCES pessoa (id)
 );
 
-
 ----
 INSERT INTO VENDA (data, quantidade, valor, cliente_id, vendedor_id) values
-(current_date, generate_series(1, 10000), 250.80, 1, 5),
 (current_date, 100, 250.80, 2, 5),
 (current_date, 100, 250.80, 3, 5),
 (current_date, 100, 250.80, 4, 5),
@@ -54,3 +52,4 @@ INSERT INTO VENDA (data, quantidade, valor, cliente_id, vendedor_id) values
 (current_date, 100, 250.80, 1, 5),
 (current_date, 100, 250.80, 1, 5),
 (current_date, 100, 250.80, 1, 5);
+SELECT * FROM VENDA V JOIN PESSOA P ON (V.CLIENTE_ID = P.ID);
